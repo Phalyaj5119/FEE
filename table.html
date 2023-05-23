@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Table</title>
     <style>
+        *{
+            border: 0px;
+            margin: 0px;
+        }
         tr:nth-child(even){
             background-color: rgb(189, 189, 255);
         }
@@ -25,8 +29,27 @@
         }
     </style>
 </head>
+<style>
+    header {
+	background-color: #02052f;
+	color: #fff;
+	padding: 20px;
+}
+
+header h1 {
+	margin: 0;
+	font-size: 36px;
+}
+</style>
 <body>
-    <table>
+    <header>
+        <center><h1>Welcome to MedNow</h1></center>
+            <br>
+    </header>
+    <br>
+    <br>
+    <br>
+    <center><table>
         <tr class="heading">
             <td>
                 S. No
@@ -88,6 +111,6 @@
             <td>Payal</td>
             <td>9:00 am</td>
         </tr>
-    </table>
+    </table></center>
 </body>
 </html>
